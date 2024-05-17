@@ -66,7 +66,7 @@ function segundosParaMinutos(segundos) {
     if (campoSegundos < 10) {
         campoSegundos = '0' + campoSegundos;
     }
-    return campoMinutos + ':' + campoSegundos;
+    return campoMinutos + ':' + campoSegundos; 
 }
 
 
