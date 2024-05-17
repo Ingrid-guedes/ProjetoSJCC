@@ -8,6 +8,7 @@ body, html {
     height: 100vh;
     background-color: #333;
     color: #ddd;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -35,11 +36,12 @@ h2 {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 progress {
     height: 6px;
-    width: 50%;
+    width: 0%;
     background-color: #333;
 }
 
@@ -48,6 +50,34 @@ progress {
     height: 20px;
     background-color: #eee;
     border-radius: 50%;
-    margin-left: 2px;
+    margin-left: -10px;
 }
 
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+  
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botao-play, botao-pause {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+}
